@@ -1,0 +1,6 @@
+print("Program that take input and gave output is descending order")
+n=list(map(int,input().split(' ')))
+print("Enter the number in one line : ")
+n.sort()
+n.reverse()
+print("Sorted desc order : "+str(n))
